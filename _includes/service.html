@@ -1,0 +1,16 @@
+<!-- begin service -->
+<div class="card">
+    <a href="{{ service.url | absolute_url }}">
+        {% if service.image %} <img class="rounded mb-4" src="{{ site.baseurl }}/{{ service.image }}" alt="{{ service.title }}"> {% endif %}
+    </a>
+    <div class="card-block">
+        <h2 class="card-title h4 serif-font"><a href="{{ service.url | absolute_url }}">{{ service.title }}</a></h2>
+        <p class="card-text text-muted">{{ service.excerpt | strip_html | truncatewords:15 }}</p>
+        <div class="metafooter">
+            <div class="wrapfooter small d-flex align-items-center">            
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end service -->

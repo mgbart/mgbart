@@ -1,0 +1,58 @@
+title: "Matias Bernhardt"
+email: matias.bernhardt@gmail.com
+ticketmail:
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo-bhdt.svg'
+favicon: 'assets/images/favicon.png'
+author: Matias Bernhardt
+paginate: 30
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  sal:
+    name: Matias Bernhardt
+    display_name: Matias Bernhardt
+    avatar: 'assets/images/sal.png'
+    email: matias.bernhardt@gmail.com
+    web: https://matiasbernhardt.com
+    twitter: https://twitter.com/
+    description: "Sysadmin, Industrial Designer and a Creative mind."
+  
+# Social
+social:
+  instagram: https://www.instagram.com/
+  facebook: https://www.facebook.com/
+  twitter: https://twitter.com/
+  linkedin: https://www.linkedin.com/in/bhdt
+
+collections:
+  services:
+    output: true
+    sort_by: index
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+
+colors: 
+  primary: "#fbc80e"
+  secondary: "#1c2322"

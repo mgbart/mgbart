@@ -1,0 +1,178 @@
+---
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
+---
+
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Let me show you how I deliver solutions with impact and style.</h1>
+      <p class="lead mb-4">I'm Matias, blending technical know-how with creative artistry to make an impact.</p>
+      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+    </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/bear.png">      
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Skills
+================================================== -->
+
+<section id="skills">
+  
+<h2>My Skillset and Services</h2>
+<div class="row" >
+  {% for service in site.services %}
+          <div class="col-md-4 mb-5">
+          {% include service.html %}
+          </div>
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Tools
+================================================== -->
+
+<section id="toolbox">
+  <h2>My Toolbox</h2>
+  <p>A painter has their brush, a mechanic their wrench, and I have my own <strong>toolbox</strong>—a collection of software, scripts, and gadgets that I bring with me wherever I go. Whether I'm <strong>fixing a server, designing a website, automating a task, or sketching a new idea</strong>, these are the tools I rely on to get the job done.</p>
+
+  <dl class="row">
+    <dt class="col-sm-3">VSCode</dt>
+    <dd class="col-sm-9">Coding, terminal, git, testing...</dd>
+    <dt class="col-sm-3">ConEmu</dt>
+    <dd class="col-sm-9">My go-to terminal alternative</dd>
+    <dt class="col-sm-3">Powershell</dt>
+    <dd class="col-sm-9">The Powered-up shell to manage Microsoft environment</dd>
+    <dt class="col-sm-3">Python</dt>
+    <dd class="col-sm-9">Automate almost everything</dd>
+    <dt class="col-sm-3">Jira</dt>
+    <dd class="col-sm-9">Task planning, ticket system, scrum boards</dd>
+    <dt class="col-sm-3">Confluence</dt>
+    <dd class="col-sm-9">My favorite documentation tool</dd>
+    <dt class="col-sm-3">Yodeck</dt>
+    <dd class="col-sm-9">Play any content, on any screen</dd>
+    <dt class="col-sm-3">Jekyll</dt>
+    <dd class="col-sm-9">Create websites in minutes</dd>
+    <dt class="col-sm-3">Adobe Creative Suite</dt>
+    <dd class="col-sm-9">A variety of excellent tools for creative work</dd>
+    <dt class="col-sm-3">Midjourney</dt>
+    <dd class="col-sm-9">To create any kind of images with AI in seconds</dd>
+    <dt class="col-sm-3">ChatGPT</dt>
+    <dd class="col-sm-9">A 24-7 personal assistant.</dd>
+    <dt class="col-sm-3">Github</dt>
+    <dd class="col-sm-9">Save my code for future generations</dd>
+  </dl> 
+
+  <p>No matter what project I’m working on—<strong>a server upgrade, a smart home tweak, or a creative experiment</strong>—this toolbox is always by my side, ready for action. 🚀</p>
+  I decided to showcase an <strong>estimate of the actual time I've spent</strong> working with the various technologies I've encountered. After all, hours spent solving real-world problems speak louder than arbitrary percentages. </p>
+
+  <p class="d-inline-flex gap-1">
+    <a class="btn btn-dark text-white px-5 btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Click to Reveal</a>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              MS Windows Operating System
+              <span class="badge text-bg-primary rounded-pill">16 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              MS Office Suite
+              <span class="badge text-bg-primary rounded-pill">16 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              CheckMK Monitoring
+              <span class="badge text-bg-primary rounded-pill">8 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              MS Intune
+              <span class="badge text-bg-primary rounded-pill">4 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              MS Teams / Skype for Business / Lync
+              <span class="badge text-bg-primary rounded-pill">8 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Powershell
+              <span class="badge text-bg-primary rounded-pill">6 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Python
+              <span class="badge text-bg-primary rounded-pill">4 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Confluence / Jira
+              <span class="badge text-bg-primary rounded-pill">8 Years</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Digital Signage
+              <span class="badge text-bg-primary rounded-pill">3 Years</span>
+            </li>
+          </ul>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Languags (except featured)
+================================================== -->
+
+<section id="languages">
+  <h2>Spoken Languages</h2>
+  <p>
+      I was born in Argentina to a family with German roots, which is why I am a native speaker of 
+      <strong>Spanish</strong> and I am fluent in <strong>German</strong>. Having lived in Argentina for 31 years before moving 
+      to Germany three years ago, I’ve had plenty of opportunities to practice and refine my German skills in daily life.
+  </p>
+  <p>
+      Throughout my career, I have always used <strong>English</strong> as my business language and as a way to 
+      connect with international friends. This has given me a strong command of English, making me an 
+      <strong>advanced speaker</strong> both professionally and personally.
+  </p>
+  <p>
+      Additionally, I have a <strong>basic knowledge of Swedish</strong> after taking a beginner’s course. 
+      Sweden has always fascinated me, and learning the language was a small step toward fulfilling my dream 
+      of living there someday.
+  </p>
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><img class="intro" height="1em" src="{{site.baseurl}}/assets/images/flags/Argentina.png">  Spanish (Native)</li>
+    <li class="list-group-item"><img class="intro" height="1em" src="{{site.baseurl}}/assets/images/flags/Germany.png">  German (Advanced)</li>
+    <li class="list-group-item"><img class="intro" height="1em" src="{{site.baseurl}}/assets/images/flags/United-States.png">  English (Advanced)</li>
+    <li class="list-group-item"><img class="intro" height="1em" src="{{site.baseurl}}/assets/images/flags/Sweden.png">  Swedish (Basic)</li>
+  </ul>
+</section>
+
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+</section>
