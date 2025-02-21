@@ -2,7 +2,7 @@ title: "Matias Bernhardt"
 email: matias.bernhardt@gmail.com
 ticketmail:
 timezone: UTC
-baseurl: "https://mgbart.github.io/mgbart/"
+baseurl: "matiasbernhardt.com"
 permalink: "/:title/"
 logo: 'assets/images/logo-bhdt.svg'
 favicon: 'assets/images/favicon.png'
